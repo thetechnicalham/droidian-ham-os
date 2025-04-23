@@ -1,0 +1,10 @@
+# Author  : Anthony Woodward
+# Date    : 23 April 2025
+# Purpose : Add Debian source list
+
+Types: deb
+URIs: http://deb.debian.org/debian/
+Suites: sid
+Components: main
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+

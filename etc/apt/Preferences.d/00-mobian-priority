@@ -1,0 +1,15 @@
+# Author  : Anthony Woodward
+# Date    : 23 April 2025
+# Purpose : Add mobian priority preference
+
+Package: *
+Pin: release o=Mobian
+Pin-Priority: 700
+
+Package: *
+Pin: release n=sid
+Pin-Priority: 300
+
+Package: *
+Pin: release o=Debian
+Pin-Priority: 500
